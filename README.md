@@ -1,5 +1,5 @@
 # Super-Bowl-2019
-# Shen
+### Shen
 Use SARIMA and several models to predict the score of super bowl 53. SARIMA model prediction is 38:35, Patriots win!
 
 First, we collect different kinds of information to extend our dataset as much as possible. Next, we use the dataset as the input of our five models. First two to predict the winner and last three to predict the score. All of our models are written in R or Python cos we think this can give us highest freedom to control the model. Then the Avg. data of previous two games of Patriots and Rams, which are Division and Conference Championship, is used to predict the final result. This is because last two are most competitive playoff games, which we think can best represent the resent team performance. Finally, we use weight avg. to calculate the consensus score.

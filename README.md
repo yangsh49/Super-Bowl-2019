@@ -18,3 +18,5 @@ Then we can see the effect of SARIMA. The x axis is the game ID since 2013 in ti
 
 ### Dataset
 The time range of our data is 2013-2018. There are two dependent variables, one is win or lose, another one is points scored. There are totally 717 observations and 22 independent variables in our dataset, which are yards gained by passing/rushing on both offense and defense team. Other variables included Team turnovers lost and turnovers gained, expected points. We also considered weather and stadium type to see if these two conditions affected performance. Last but not least, we added las vegas betting odds into our model. We used the latest points spread in our model, in which case Patriots is 2.5- point favorite.
+
+This is a team project and I'm responsible for the SARIMA model

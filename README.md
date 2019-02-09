@@ -1,5 +1,7 @@
 # Super-Bowl-2019
 
+---
+
 #### Shen 2019.1.31
 Use SARIMA and several models to predict the score of super bowl 53. SARIMA model prediction is 38:35, Patriots win!
 
@@ -17,6 +19,7 @@ Then we can see the effect of SARIMA. The model fit so well on the history data.
 ### Dataset
 The time range of the data is 2013-2018. There are totally 717 observations and 22 independent variables in dataset, which are yards gained by passing/rushing on both offense and defense team. Other variables included Team turnovers lost and turnovers gained, expected points. Weather and stadium type are also considered to see if these two conditions affected performance. Last but not least, Las vegas betting odds was added into dataset, in which Patriots is 2.5 point favorite.
 
+---
 
 #### Shen Update on 2019.2.6
 The final score of the super bowl is 13:3, which is the lowest score in the NFL history. 

@@ -1,4 +1,14 @@
 # Super-Bowl-2019
+
+#### Shen Update on 2019.2.6
+The final score of the super bowl is 13:3, which is the lowest score in the NFL history. 
+
+To be honest, I feel a little bit frustrated beacuse I'm pretty confident before the game since the RMSE for the past five years data is around 4. In addition, the offense of both teams are rank Top in NFL. It's reasonable for them to achieve a high score game. 
+
+But, from the start to end, both teams are focus on defense. I guess this should be the decision of coach, which I have no way to include it in the model.  
+
+Anyway, I learn a lot from this event. I think that is the most valuable part. Prediction can not be perfect all the time. 
+
 #### Shen 2019.1.31
 Use SARIMA and several models to predict the score of super bowl 53. SARIMA model prediction is 38:35, Patriots win!
 

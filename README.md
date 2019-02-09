@@ -1,7 +1,5 @@
 # Super-Bowl-2019
 
----
-
 #### Shen 2019.1.31
 Use SARIMA and several models to predict the score of super bowl 53. SARIMA model prediction is 38:35, Patriots win!
 

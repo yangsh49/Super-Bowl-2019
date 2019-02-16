@@ -1,9 +1,9 @@
 # Super-Bowl-2019
 
 #### Shen 2019.1.31
-Use SARIMA and several models to predict the score of super bowl 53. SARIMA model prediction is 38:35, Patriots win!
+Use Seasonal ARIMA with Exogenous Variables to predict the score of super bowl 53. Based on the result of SARIMA, Patriots is going to win!
 
-### SARIMA
+### Seasonal ARIMA
 Game score is also a kind of time series data. And SARIMA is a mature method to analyze time series data. The full name of SARIMA is Seasonal Autoregressive integrated Moving Average. It contains of four parts: Seasonal measure the long period trend, like month, season or years. The Autoregressive indicates that the variable of interest is regressed on its prior values. The "integrated" indicates that model will consider differencing process(the data values have been replaced with the difference between their values and the previous values). The Moving Avg. part indicates that the regression error is actually a linear combination of error terms whose values occurred at various times in the past. The purpose of each of these features is to make the model fit the data as well as possible.
 
 But that’s not enough. Traditionally, time series forecasting only include two parts: time stamp and value at that time. Having a large dataset with rich information, I want to take advantage of that. So I import external variables into the model to improve the performance.
